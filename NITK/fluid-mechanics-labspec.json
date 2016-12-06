@@ -1,41 +1,44 @@
 {
         "course": {"org": "nitk","id": "CIVIL20", "display_name": "Fluid Mechanics", "discipline_name": "Civil Engineering", "developer_name": "Mohit tahiliani"},
         "overview": "Fluid Mechanics",
-        "experiments": [{"id": "Intro", "name": "Introduction",
+        "experiments": [{"id": "Intro", "intro_name": "Introduction",
                          "subsections": [{"name": "Introduction"}
                                          ]},
-                         {"id": "E99302", "name": "Calibration of V-Notch",
-                         "subsections": [{"name": "Theory"},
-                                         {"name": "Procedure"},
-                                         {"name": "Self Evaluation"},
-                                         {"name": "Simulator"},
-                                         {"name": "Assignment"},
-					 {"name": "Quiz"}
-					 {"name": "Video"},
-                                         {"name": "Reference"},
-					 {"name": "Feedback"}
+                         {"id": "E99302", "exp_name": "Calibration of V-Notch",
+                         "subsections": [{"theo_name": "Theory"},
+                                         {"proc_name": "Procedure"},
+                                         {"eval_name": "Self Evaluation"},
+                                         {"simu_name": "Simulator"},
+                                         {"assi_name": "Assignment"},
+					 {"quiz_name": "Quiz"},
+					 {"vide_name": "Video"},
+                                         {"refe_name": "Reference"},
+					 {"feed_name": "Feedback"}
                                          ]},
-                         {"id": "E99301", "name": "Calibration of Rectangular Notch",
-                         "subsections": [{"name": "Theory"},
-                                         {"name": "Procedure"},
-                                         {"name": "Self Evaluation"},
-                                         {"name": "Simulator"},
-                                         {"name": "Assignment"},
-                                         {"name": "Quiz"}
-					 {"name": "Video"},
-                                         {"name": "Reference"},
-					 {"name": "Feedback"}
+                         {"id": "E99301", "exp_name": "Calibration of Rectangular Notch",
+                         "subsections": [{"theo_name": "Theory"},
+                                         {"proc_name": "Procedure"},
+                                         {"eval_name": "Self Evaluation"},
+                                         {"simu_name": "Simulator"},
+                                         {"assi_name": "Assignment"},
+                                         {"quiz_name": "Quiz"},
+					 {"vide_name": "Video"},
+                                         {"refe_name": "Reference"},
+					 {"feed_name": "Feedback"}
                                          ]},
-                         {"id": "E99397", "name": "Impact Of Jet",
-                         "subsections": [{"name": "Theory"},
-                                         {"name": "Procedure"},
-                                         {"name": "Self Evaluation"},
-                                         {"name": "Simulator"},
-                                         {"name": "Assignment"},
-                                         {"name": "Quiz"}
-					 {"name": "Video"},
-                                         {"name": "Reference"},
-					 {"name": "Feedback"}
+                         {"id": "E99397", "exp_name": "Impact Of Jet",
+                         "subsections": [{"theo_name": "Theory"},
+                                         {"proc_name": "Procedure"},
+                                         {"eval_name": "Self Evaluation"},
+                                         {"simu_name": "Simulator"},
+                                         {"assi_name": "Assignment"},
+                                         {"quiz_name": "Quiz"},
+					 {"vide_name": "Video"},
+                                         {"refe_name": "Reference"},
+					 {"feed_name": "Feedback"}
+                                         ]},
+			{"id": "feedback", "name": "Feedback",
+                         "subsections": [{"feed_name": "Feedback"}
                                          ]}
                          
                         ]
